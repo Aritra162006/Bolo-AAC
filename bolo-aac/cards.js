@@ -4,7 +4,13 @@
 export const LANG_CODE = { hi: 'hi-IN', en: 'en-IN', bn: 'bn-IN' };
 export const LANG_NAME = { hi: 'हिंदी', en: 'English', bn: 'বাংলা' };
 
-export const CATEGORIES = ['core', 'needs', 'food', 'feelings', 'people', 'places', 'phrases'];
+export const UI = {
+  speak: { hi: 'बोलो', en: 'Speak', bn: 'বলো' },
+  del: { hi: 'मिटाओ', en: 'Delete', bn: 'মোছো' },
+  clear: { hi: 'साफ़', en: 'Clear', bn: 'পরিষ্কার' },
+};
+
+export const CATEGORIES =['core', 'needs', 'food', 'feelings', 'people', 'places', 'phrases'];
 export const CAT_LABEL = {
   core: { hi: 'मुख्य', en: 'Core', bn: 'প্রধান' },
   needs: { hi: 'ज़रूरत', en: 'Needs', bn: 'প্রয়োজন' },
